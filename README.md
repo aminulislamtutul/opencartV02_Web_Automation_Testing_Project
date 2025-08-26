@@ -68,4 +68,12 @@ mvn clean test -DsuiteXmlFile=docker-grid.xml
 - TestNG Reports → `test-output/`
 <img width="951" height="418" alt="Screenshot_1" src="https://github.com/user-attachments/assets/031029c3-01f2-4ffc-84be-6e2ef0de0c8b" />
 
+## CI/CD with Jenkins
+1. Install Jenkins & configure Maven + Git in **Global Tool Configuration**
+2. Create a new Jenkins Job → Pull this repo
+3. Add **Build Step**:
+```bash
+mvn clean test -DsuiteXmlFile=master.xml
+```
+
 
