@@ -1,0 +1,104 @@
+2025-08-27 00:28:29 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 00:28:29 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 00:28:29 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 00:28:29 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 00:28:33 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 00:28:33 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 00:38:11 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 00:38:11 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 00:38:11 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 00:38:12 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 00:38:15 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 00:38:15 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 00:38:15 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 00:39:05 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 00:39:05 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 00:39:06 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 00:39:06 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 00:39:10 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 00:39:10 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 00:39:10 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 00:39:12 INFO  TestAccountLoginPage_TC002:14 - ****Starting TestAccountLoginPageTC002****
+2025-08-27 00:39:12 INFO  TestAccountLoginPage_TC002:17 - Clicking on My Account Link..
+2025-08-27 00:39:12 INFO  TestAccountLoginPage_TC002:19 - Clicking on Login Link..
+2025-08-27 00:39:13 INFO  TestAccountLoginPage_TC002:36 - ****End TestAccountLoginPageTC002****
+2025-08-27 00:39:13 INFO  TestAccountLoginPage_TC002:68 - verifyLogin executed successfully
+2025-08-27 00:46:24 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 00:46:24 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 00:46:25 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 00:46:25 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 00:46:28 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 00:46:28 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 00:46:28 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 00:46:30 INFO  TestAccountLoginPage_TC002:14 - ****Starting TestAccountLoginPageTC002****
+2025-08-27 00:46:30 INFO  TestAccountLoginPage_TC002:17 - Clicking on My Account Link..
+2025-08-27 00:46:31 INFO  TestAccountLoginPage_TC002:19 - Clicking on Login Link..
+2025-08-27 00:46:42 ERROR TestAccountLoginPage_TC002:81 - verifyLogin failed
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.11.0.jar:7.11.0]
+	at TestCases.TestAccountLoginPage_TC002.verifyLogin(TestAccountLoginPage_TC002.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-08-27 00:53:05 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 00:53:06 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 00:53:06 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 00:53:06 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 00:53:09 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 00:53:09 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 00:53:09 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 00:53:12 INFO  TestAccountLoginPage_TC002:14 - ****Starting TestAccountLoginPageTC002****
+2025-08-27 00:53:12 INFO  TestAccountLoginPage_TC002:17 - Clicking on My Account Link..
+2025-08-27 00:53:12 INFO  TestAccountLoginPage_TC002:19 - Clicking on Login Link..
+2025-08-27 00:53:13 INFO  TestAccountLoginPage_TC002:36 - ****End TestAccountLoginPageTC002****
+2025-08-27 00:53:13 INFO  TestAccountLoginPage_TC002:68 - verifyLogin executed successfully
+2025-08-27 01:16:45 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 01:16:45 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 01:16:45 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 01:16:46 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 01:16:49 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 01:16:49 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 01:16:49 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 01:16:51 INFO  TestAccountLoginPage_TC002:14 - ****Starting TestAccountLoginPageTC002****
+2025-08-27 01:16:51 INFO  TestAccountLoginPage_TC002:17 - Clicking on My Account Link..
+2025-08-27 01:16:51 INFO  TestAccountLoginPage_TC002:19 - Clicking on Login Link..
+2025-08-27 01:16:52 INFO  TestAccountLoginPage_TC002:36 - ****End TestAccountLoginPageTC002****
+2025-08-27 01:16:52 INFO  TestAccountLoginPage_TC002:68 - verifyLogin executed successfully
+2025-08-27 01:18:26 INFO  TestAccountRegistrationPage_TC001:14 - ****Starting TestAccountRegistrationPageTC001****
+2025-08-27 01:18:26 INFO  TestAccountRegistrationPage_TC001:17 - Clicking on My Account Link..
+2025-08-27 01:18:27 INFO  TestAccountRegistrationPage_TC001:19 - Clicking on Register Link..
+2025-08-27 01:18:27 INFO  TestAccountRegistrationPage_TC001:23 - Providing Customer Details..
+2025-08-27 01:18:30 INFO  TestAccountRegistrationPage_TC001:37 - Validating Expected Massage..
+2025-08-27 01:18:30 INFO  TestAccountRegistrationPage_TC001:52 - ****Ending TestAccountRegistrationPageTC001****
+2025-08-27 01:18:31 INFO  TestAccountRegistrationPage_TC001:68 - verifyAccountRegistration executed successfully
+2025-08-27 01:18:33 INFO  TestAccountLoginPage_TC002:14 - ****Starting TestAccountLoginPageTC002****
+2025-08-27 01:18:33 INFO  TestAccountLoginPage_TC002:17 - Clicking on My Account Link..
+2025-08-27 01:18:33 INFO  TestAccountLoginPage_TC002:19 - Clicking on Login Link..
+2025-08-27 01:18:34 INFO  TestAccountLoginPage_TC002:36 - ****End TestAccountLoginPageTC002****
+2025-08-27 01:18:34 INFO  TestAccountLoginPage_TC002:68 - verifyLogin executed successfully
