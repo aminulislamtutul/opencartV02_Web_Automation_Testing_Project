@@ -45,3 +45,19 @@ https://github.com/aminulislamtutul/opencartV01_Web_Automation_Testing_Project.g
 ```bash
 mvn clean install
 ```
+* **Using run.bat**
+
+```bash
+run.bat
+```
+##  Docker + Selenium Grid Execution
+### Run Grid
+
+```bash
+docker-compose up -d
+```
+### Execute Tests on Grid
+
+```bash
+mvn clean test -DsuiteXmlFile=docker-grid.xml
+```
