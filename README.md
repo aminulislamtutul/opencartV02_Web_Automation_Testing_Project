@@ -35,3 +35,13 @@ The framework supports:
 ├── run.bat                        → Batch file for execution
 └── README.md                      → Project documentation
 ```
+##  Setup & Execution
+### 1️⃣ Clone the repository
+```
+https://github.com/aminulislamtutul/opencartV01_Web_Automation_Testing_Project.git
+```
+### 2️⃣ Install dependencies
+
+```bash
+mvn clean install
+```
