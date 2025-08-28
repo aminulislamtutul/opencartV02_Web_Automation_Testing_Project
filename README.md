@@ -7,8 +7,10 @@ This project is an automation framework built using Java, Selenium, TestNG, and 
 - [**Selenium 4**](https://www.selenium.dev/) – Web automation framework
 - [**Maven**](https://maven.apache.org/) – Build and dependency management tool
 - [**TestNG**](https://testng.org/) – Testing framework
-
-
+- [**Jenkins**](https://www.jenkins.io/) – Continuous Integration / Continuous Delivery (CI/CD)  
+- [**Docker**](https://www.docker.com/) – Containerization for test execution
+- [**Git**](https://git-scm.com/) – Version control system
+- 
 ## Overview
 This project is a Hybrid Automation Framework built for automating the OpenCart application using Selenium, TestNG, Maven, Docker, and Jenkins.
 
